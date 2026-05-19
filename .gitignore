@@ -1,0 +1,25 @@
+# Ignore temporary workspace files
+workspace/
+*.tmp
+*.swp
+*.bak
+*.log
+
+# Keep memory files
+!memory/
+!memory/daily-log.md
+!memory/projects.md
+!memory/learned-lessons.md
+
+# Node modules (if used)
+node_modules/
+package-lock.json
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
